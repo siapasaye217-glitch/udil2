@@ -1,0 +1,1825 @@
+GAME DEVELOPMENT PROMPT: AIN'S BIRTHDAY ADVENTURE 🎂⚔️
+
+1. YOUR ROLE
+
+Act as an experienced indie game developer, pixel-art artist, RPG designer, animator, gameplay programmer, and cinematic storyteller.
+
+Create a complete, playable 2D pixel-art fantasy RPG called "Ain's Birthday Adventure."
+
+This must be a real, functioning game, not just a visual mockup, concept art, or a static webpage.
+
+The game should combine:
+
+- Classic top-down pixel-art RPG exploration.
+- A funny and wholesome birthday story.
+- Cinematic character interactions.
+- A dramatic monster transformation.
+- A chaotic village-destruction sequence.
+- A challenging multi-phase boss battle.
+- Emotional friendship moments.
+- A joyful village celebration.
+- A birthday cake scene.
+- A beautiful sunset ending.
+
+Most importantly, make the entire story coherent. Characters must behave according to the situation, dialogue must match what is happening on screen, and every scene must transition naturally into the next.
+
+If the development environment supports playable browser games, build the game so it can run directly in the browser. Use the engine and technology best supported by the environment.
+
+Do not stop at describing the game. Implement it.
+
+---
+
+2. GAME IDENTITY
+
+Title: Ain's Birthday Adventure
+
+Genre: 2D Fantasy RPG / Action Adventure / Boss Battle / Comedy
+
+Visual Style: Detailed retro pixel art inspired by classic top-down RPGs.
+
+Perspective: Top-down exploration with cinematic side-view or angled camera shots when appropriate.
+
+Tone: Funny, adventurous, chaotic, emotional, wholesome, and heartwarming.
+
+Main Characters:
+
+- Ain — the birthday girl and main protagonist.
+- Aidil — Ain's friend, who gives her a birthday present but unexpectedly transforms into a giant monster.
+- Angel 1 — the calm, responsible angel.
+- Angel 2 — the loud, chaotic, comedic angel.
+- Angel 3 — the cheerful angel.
+- The villagers — innocent townspeople who need Ain's help.
+
+Estimated Gameplay Length: Approximately 10–20 minutes, depending on exploration and combat.
+
+Primary Objective: Guide Ain through a birthday adventure, save the village from the Shadow Titan, rescue Aidil, and celebrate Ain's birthday.
+
+---
+
+3. VISUAL REFERENCE AND PIXEL-ART DIRECTION
+
+Use the attached screenshot as the primary visual reference for the game's world and environment.
+
+Recreate the visual feeling of a classic top-down pixel-art RPG.
+
+The game should look like a carefully designed retro adventure rather than a modern 3D game with a pixel filter.
+
+Environment Design
+
+Use:
+
+- Textured green grass with subtle pixel variations.
+- Small flowers scattered across grassy areas.
+- Detailed trees with dark trunks and layered green leaves.
+- Bushes, flower beds, and decorative plants.
+- Cobblestone pathways with irregular stone patterns.
+- Stone walls, towers, castle gates, and medieval buildings.
+- Wooden fences and market stalls.
+- Small houses with distinctive rooftops.
+- Fountains, benches, barrels, crates, and lanterns.
+- Garden decorations and birthday decorations.
+- Clear paths connecting the village, garden, castle, and central square.
+
+The environment should feel alive and handcrafted.
+
+Avoid large empty spaces, flat green backgrounds, blurry textures, or oversized objects that obscure the characters.
+
+Pixel-Art Quality
+
+Use:
+
+- Crisp pixel edges.
+- Consistent pixel scale.
+- Carefully selected color palettes.
+- Readable character silhouettes.
+- Detailed environmental tiles.
+- Smooth, intentional sprite animations.
+- Subtle lighting and shadows.
+- Consistent proportions between characters, trees, buildings, and scenery.
+
+The characters must remain visible against the environment.
+
+Use a resolution and scaling method that preserves sharp pixel art.
+
+Camera
+
+During exploration:
+
+- Use a top-down RPG camera.
+- Follow Ain smoothly.
+- Keep nearby landmarks visible.
+- Prevent the camera from showing areas outside the map.
+
+During cinematic scenes:
+
+- Allow the camera to zoom in.
+- Focus on characters' faces or important actions.
+- Use camera shake sparingly during major monster attacks.
+
+During the final scene:
+
+- Use a wide cinematic view of Ain and Aidil watching the sunset.
+
+---
+
+4. MAIN MENU
+
+Create a polished title screen before gameplay begins.
+
+Title
+
+AIN'S BIRTHDAY ADVENTURE
+
+Visual Composition
+
+Show Ain standing in a flower garden, with the village and castle visible in the background.
+
+Aidil should stand nearby, holding a wrapped birthday present.
+
+Use a warm, colorful pixel-art scene with flowers, trees, stone paths, and gentle sunlight.
+
+Add small floating petals or sparkles.
+
+Menu Buttons
+
+- START ADVENTURE
+- CONTROLS
+- SOUND: ON/OFF
+
+The buttons must work.
+
+The Controls button should explain the movement and combat controls.
+
+The Start Adventure button begins the opening cinematic.
+
+Save the player's sound preference when practical.
+
+---
+
+5. OPENING CINEMATIC: FALLING FROM THE SKY
+
+The game begins with a cinematic showing Ain falling from the sky while three angels attempt to deliver her safely to the world below.
+
+Scene Setup
+
+Show clouds drifting across a bright blue sky.
+
+Ain is falling through the air with three angels flying around her.
+
+Use a side-view cinematic camera.
+
+Animate Ain's hair and clothes fluttering in the wind.
+
+The angels should have distinct personalities expressed through their movements and facial expressions.
+
+Angel 1 remains composed.
+
+Angel 2 panics dramatically.
+
+Angel 3 points toward the landing area.
+
+EXACT OPENING DIALOGUE
+
+Display each line in a readable pixel-art dialogue box.
+
+Characters should visibly react while speaking.
+
+Ain:
+"Yo... why am I falling?"
+
+Angel 1:
+"Please remain calm. This is a controlled descent."
+
+Angel 2:
+"BRO, WE'RE LOSING ALTITUDE!"
+
+Angel 1:
+"We're supposed to lose altitude. We're landing."
+
+Ain:
+"Could've mentioned that before I started questioning my life choices."
+
+Angel 3:
+"Flower garden incoming!"
+
+Ain:
+"Wait, that entire thing is flowers?"
+
+Angel 2:
+"Yep! Five-star landing zone!"
+
+Angel 1:
+"Three, two, one..."
+
+Landing Animation
+
+Ain lands in a flower garden.
+
+Flowers scatter around her.
+
+A small dust cloud appears.
+
+The camera shakes very slightly.
+
+The angels land nearby.
+
+Ain slowly stands up and brushes herself off.
+
+EXACT LANDING DIALOGUE
+
+Ain:
+"Okay. Not gonna lie, that was kinda cool."
+
+Angel 2:
+"Ten out of ten landing!"
+
+Angel 1:
+"You nearly landed in the fountain."
+
+Ain:
+"And yet... here I am."
+
+Angel 3:
+"Delivery complete."
+
+Angel 2:
+"Do we get snacks for this?"
+
+Angel 1:
+"No."
+
+Angel 2:
+"Worst job ever."
+
+After the final line, the angels wave goodbye and fly away.
+
+The camera gradually returns to the normal top-down gameplay view.
+
+Display the game title briefly:
+
+AIN'S BIRTHDAY ADVENTURE
+
+Then give the player control of Ain.
+
+---
+
+6. EXPLORATION PHASE: THE FLOWER GARDEN AND VILLAGE
+
+Allow the player to freely explore the world.
+
+The world should feel like a small but detailed RPG map.
+
+Main Areas
+
+Create these interconnected locations:
+
+1. Flower Garden
+2. Village Entrance
+3. Residential Street
+4. Village Market
+5. Central Village Square
+6. Castle Courtyard
+7. Birthday Celebration Area
+
+Connect the locations with stone paths and natural terrain.
+
+Use trees, fences, walls, and buildings to create believable boundaries.
+
+Exploration Mechanics
+
+The player must be able to:
+
+- Walk in four directions.
+- Talk to villagers.
+- Inspect environmental objects.
+- Discover small decorative details.
+- Walk through doorways where appropriate.
+- Trigger story events by reaching specific locations.
+
+Add optional interactions such as:
+
+- Inspecting a flower.
+- Talking to a villager who mentions Ain's birthday.
+- Looking at a fountain.
+- Examining birthday decorations.
+- Hearing rumors about strange magical energy near the castle.
+
+Optional dialogue should be short and humorous.
+
+Do not make optional exploration necessary to understand the main story.
+
+NPC Behavior
+
+Villagers should have small idle animations.
+
+Examples include:
+
+- Walking around.
+- Standing near market stalls.
+- Watering flowers.
+- Talking to other villagers.
+- Sweeping outside houses.
+
+Characters should not walk through walls or buildings.
+
+Use collision detection and clear navigation boundaries.
+
+---
+
+7. AIDIL'S BIRTHDAY GIFT SCENE
+
+After a short exploration period, guide Ain toward the central village square.
+
+Aidil is waiting near a decorated garden area.
+
+He has a small wrapped birthday present.
+
+Ain approaches him, and a dialogue sequence begins.
+
+Character Animation
+
+Aidil notices Ain and waves.
+
+Ain walks toward him.
+
+Aidil holds out the present.
+
+Ain accepts it.
+
+Both characters should look relaxed and comfortable around each other.
+
+Their friendship should feel natural.
+
+EXACT DIALOGUE
+
+Aidil:
+"Yo, there you are."
+
+Ain:
+"Bro, what are you doing here?"
+
+Aidil:
+"Waiting. Obviously."
+
+Ain:
+"You could've at least looked busy."
+
+Aidil:
+"I was. Mentally preparing for this conversation."
+
+Ain:
+"Wow. Must've been exhausting."
+
+Aidil:
+"Careful... you might get used to me surprising you."
+
+Ain:
+"Oh? Is that a promise?"
+
+Aidil:
+"Depends. Are you going to hold me to it?"
+
+Ain:
+"Maybe."
+
+Gift Animation
+
+Aidil gives Ain the wrapped present.
+
+Ain accepts it and smiles.
+
+Display a small sparkle animation around the gift.
+
+Do not reveal the gift's contents yet. The important moment is the exchange between the friends.
+
+After the conversation, let the player move again.
+
+The village atmosphere should remain peaceful for a short time.
+
+Then begin the transformation event.
+
+---
+
+8. THE TRANSFORMATION: AIDIL BECOMES THE SHADOW TITAN
+
+The transformation must be surprising, dramatic, and visually impressive.
+
+It should feel like a sudden disaster interrupting a happy birthday.
+
+Initial Warning
+
+The sky gradually darkens.
+
+A low magical rumble begins.
+
+Purple particles appear around Aidil.
+
+Aidil looks at his hands.
+
+He seems confused and frightened.
+
+Ain notices something is wrong.
+
+EXACT DIALOGUE
+
+Ain:
+"Uh... Aidil?"
+
+Aidil:
+"Okay, before you panic..."
+
+Ain:
+"BRO?!"
+
+Aidil:
+"Yeah, this is probably not ideal."
+
+Aidil's body begins glowing with purple energy.
+
+The ground shakes.
+
+The camera slowly pulls back.
+
+Aidil grows dramatically larger, transforming into a gigantic purple monster known as the Shadow Titan.
+
+Use:
+
+- Purple energy.
+- Dark smoke.
+- Glowing eyes.
+- Heavy footsteps.
+- A dramatic roar.
+- Strong but brief camera shake.
+- Falling leaves and dust.
+- Cracks appearing in nearby ground tiles.
+
+The transformation should be animated as a sequence rather than an instant sprite replacement.
+
+The Titan must be much larger than the player and surrounding villagers.
+
+Its design should have a strong silhouette, glowing eyes, large hands, heavy limbs, and dark purple armor-like features.
+
+The monster should look threatening but remain recognizable as Aidil's transformed form.
+
+After the transformation, the Titan roars.
+
+Ain:
+"You think?!"
+
+The Titan turns toward the village streets.
+
+Then the rampage begins.
+
+---
+
+9. THE VILLAGE RAMPAGE: THE TITAN CHASES THE VILLAGERS
+
+This is an essential story scene.
+
+The Shadow Titan must actively chase villagers through the village before Ain fights it.
+
+Do not skip directly from the transformation to the boss battle.
+
+The player must see the consequences of Aidil's transformation.
+
+Scene Direction
+
+The Titan stomps into the village.
+
+Villagers notice the enormous monster and begin screaming.
+
+Some run toward their homes.
+
+Others flee through the market.
+
+A shopkeeper abandons a market stall.
+
+A villager drops a basket of apples.
+
+A guard attempts to protect the village entrance before realizing how enormous the monster is.
+
+The guard immediately runs away.
+
+Keep the comedy consistent with the game's tone.
+
+The villagers are frightened, not cruel or foolish.
+
+Monster Chase Sequence
+
+Show the Titan chasing a small group of villagers through the streets.
+
+The villagers run along the cobblestone paths.
+
+The Titan follows them, swinging its arms and stomping the ground.
+
+One villager ducks behind a tree.
+
+Another hides behind a market stall.
+
+A third runs through an open gate and escapes into a safe area.
+
+The Titan smashes an empty wooden stall and knocks over barrels.
+
+It breaks fences and damages selected environmental objects.
+
+It must not intentionally kill villagers.
+
+Villagers who are caught in the Titan's path should automatically dodge, escape, or move to safety.
+
+Make the scene chaotic but readable.
+
+Use short cinematic cuts to show:
+
+1. Villagers noticing the Titan.
+2. The Titan roaring.
+3. Villagers fleeing.
+4. The Titan chasing them.
+5. Market objects scattering.
+6. The villagers reaching safety.
+7. Ain stepping forward to confront the monster.
+
+Environmental Destruction
+
+The Titan should damage parts of the village.
+
+Examples:
+
+- Wooden fences break.
+- Market stalls collapse.
+- Barrels roll across the road.
+- Crates scatter.
+- Stone paths crack.
+- Dust clouds appear when the Titan stomps.
+
+Destruction should be visually satisfying without making the game impossible to navigate.
+
+Do not destroy essential buildings or block the only route to the boss fight.
+
+Keep a record of damaged objects so they can be restored later.
+
+Ain's Reaction
+
+After seeing the villagers flee, Ain realizes that she must stop the Titan.
+
+Ain steps between the monster and the fleeing villagers.
+
+The camera frames Ain in the foreground and the Titan towering over her.
+
+Begin the confrontation dialogue.
+
+Ain:
+"Aidil! What are you doing?!"
+
+The Titan roars and raises its arm.
+
+Ain:
+"Okay. Guess we're doing this the hard way."
+
+The Titan turns toward Ain.
+
+The boss health bar appears.
+
+Display:
+
+BOSS: SHADOW TITAN
+
+The player regains control.
+
+The boss battle begins.
+
+---
+
+10. MAIN BOSS BATTLE: SHADOW TITAN
+
+Create a real, playable boss fight.
+
+The Titan must have attacks, movement patterns, telegraphed danger zones, health, damage reactions, and multiple phases.
+
+The fight should be challenging but fair.
+
+The player must be able to defeat the boss through movement, timing, and attacks.
+
+Combat Controls
+
+Desktop:
+
+- WASD or Arrow Keys: Move.
+- Space or J: Attack.
+- Shift: Dodge or dash.
+- E or Enter: Interact.
+- Escape: Pause.
+
+Mobile:
+
+- Virtual directional joystick or directional buttons.
+- Attack button.
+- Dodge button.
+- Interact button when appropriate.
+
+Make controls configurable where practical.
+
+Boss Health
+
+Display a large boss health bar near the top of the screen.
+
+The health bar must update when the Titan takes damage.
+
+The boss must have clear damage reactions.
+
+Examples:
+
+- Brief flashing.
+- Knockback from appropriate attacks.
+- A short stagger animation.
+- A sound effect when a successful hit lands.
+
+Avoid allowing the player to defeat the Titan instantly.
+
+Phase 1: Heavy Stomps
+
+The Titan slowly approaches Ain.
+
+It raises one foot before stomping.
+
+Show a warning circle on the ground.
+
+After a short delay, the Titan stomps.
+
+The impact causes an area-of-effect shockwave.
+
+The player must dodge outside the danger zone.
+
+The Titan occasionally swings an arm across the ground.
+
+The player can attack when the Titan finishes its moves.
+
+Phase 2: Purple Energy Attacks
+
+At approximately 65% health, the Titan becomes more aggressive.
+
+Purple energy gathers around its hands.
+
+The Titan launches magical projectiles.
+
+The projectiles should travel toward Ain's position when launched.
+
+The player must move to avoid them.
+
+The Titan can also create a short line of purple energy across the ground.
+
+Display a warning effect before the attack activates.
+
+The player can damage the Titan during recovery windows.
+
+Phase 3: Desperate Rampage
+
+At approximately 30% health, the Titan becomes unstable.
+
+Its purple aura grows brighter.
+
+Its movement becomes faster.
+
+The Titan uses:
+
+- A stronger ground slam.
+- A short charging attack.
+- A sweeping arm attack.
+- A final desperate roar.
+
+Each attack must have readable telegraphs.
+
+Do not make the final phase unfair or unavoidable.
+
+The Titan should become exhausted after its strongest attacks, allowing Ain to retaliate.
+
+The battle should gradually become more emotional as Ain realizes that the monster is still Aidil.
+
+---
+
+11. SPECIAL CINEMATIC: AIN BITES THE TITAN'S HAND
+
+This is an important comedic moment.
+
+Trigger the cinematic when the Titan grabs Ain under a specific battle condition.
+
+Do not make it happen randomly in the middle of unrelated dialogue.
+
+Scene
+
+The Titan reaches down and grabs Ain.
+
+Ain struggles in its enormous hand.
+
+The camera zooms in on Ain.
+
+The Titan begins raising Ain toward its face.
+
+Ain realizes that she is in danger.
+
+She angrily bites the Titan's hand.
+
+The Titan immediately recoils in pain and releases her.
+
+Ain lands safely on the ground.
+
+Use a short landing animation and a small dust effect.
+
+The Titan shakes its hand and looks offended.
+
+EXACT DIALOGUE
+
+Ain:
+"HEY! PUT ME DOWN, YOU OVERGROWN LIZARD!"
+
+Titan:
+"WHY WOULD YOU DO THAT?!"
+
+Ain:
+"WHAT IS WRONG WITH YOU?! YOU'RE THE ONE TRYING TO EAT ME!"
+
+Ain:
+"THAT'S WHAT YOU GET FOR GRABBING ME!"
+
+The Titan growls angrily.
+
+Ain:
+"YOU'VE BEEN SAYING THAT FOR FIVE MINUTES! GET NEW MATERIAL!"
+
+Return to Gameplay
+
+The Titan drops into a brief staggered state.
+
+Its health should decrease only if appropriate for the current battle state.
+
+Give the player an opportunity to attack.
+
+The cinematic must not cause the player to lose control permanently.
+
+If the player loses all health, use a proper defeat and retry sequence.
+
+---
+
+12. FINAL FINISHER: SAVING AIDIL
+
+When the Titan's health reaches zero, do not simply make the monster disappear.
+
+Trigger a dedicated ending cinematic for the battle.
+
+Scene
+
+The Titan collapses to one knee.
+
+Its purple aura begins flickering.
+
+The ground stops shaking.
+
+The sky slowly becomes brighter.
+
+The Titan attempts to stand but struggles.
+
+Ain approaches carefully.
+
+The music changes from intense battle music to a quiet emotional theme.
+
+The camera moves closer to Ain and the Titan.
+
+Ain recognizes that Aidil is still inside the monster.
+
+She lowers her weapon.
+
+She does not attack the Titan again.
+
+Instead, she speaks directly to Aidil.
+
+EXACT DIALOGUE
+
+Ain:
+"Aidil... that's enough."
+
+Ain takes a step closer.
+
+Ain:
+"I know you're still in there. Come on, bro. We're not ending things like this."
+
+The Titan lowers its head.
+
+The purple energy begins fading.
+
+Ain:
+"You've caused enough chaos for one birthday."
+
+Restoration Animation
+
+Ain reaches toward the Titan.
+
+A small warm light appears between them.
+
+The purple energy dissolves into floating particles.
+
+The Titan gradually shrinks.
+
+Its monstrous features disappear.
+
+Aidil returns to his normal human form.
+
+He falls forward, exhausted.
+
+Ain catches him or helps him sit down safely.
+
+The camera pauses on the two friends.
+
+The boss health bar disappears.
+
+The battle is officially over.
+
+---
+
+13. RESTORING THE VILLAGE
+
+The Titan has been defeated.
+
+Aidil is back to normal.
+
+The villagers gradually emerge from their hiding places.
+
+The village should initially show the damage caused by the rampage.
+
+Broken fences, damaged stalls, scattered barrels, and cracked paths should still be visible.
+
+Aidil's Condition
+
+Aidil is exhausted and confused.
+
+He looks around and sees the damage.
+
+He realizes what happened.
+
+He looks at Ain.
+
+He should show genuine embarrassment and concern rather than immediately treating the destruction as a joke.
+
+EXACT DIALOGUE
+
+Aidil:
+"So... about the whole giant monster thing."
+
+Ain:
+"Yeah?"
+
+Aidil:
+"We probably shouldn't make that a birthday tradition."
+
+Ain:
+"Probably not."
+
+Aidil:
+"Good talk."
+
+Ain gives him a look.
+
+Aidil looks away awkwardly.
+
+The moment should be funny without ignoring the seriousness of what happened.
+
+Restoration Sequence
+
+After the dialogue, a gentle magical effect spreads through the village.
+
+This can be triggered by the village's protective magic activating after the Titan's defeat.
+
+The effect travels across the damaged environment.
+
+Show:
+
+- Broken fences repairing themselves.
+- Market stalls rebuilding.
+- Barrels returning to their positions.
+- Cracked paths restoring.
+- Fallen decorations returning to their original places.
+- Dust clearing.
+- Flowers growing back.
+- Lanterns lighting up.
+
+Use a soft golden glow mixed with the last remnants of purple particles.
+
+The villagers watch in amazement.
+
+The village returns to its original appearance.
+
+The restoration should be visible and satisfying.
+
+Do not instantly teleport the village back to normal without showing what happens.
+
+---
+
+14. THE VILLAGERS CELEBRATE AIN
+
+This scene is essential.
+
+Ain has saved the village and rescued Aidil.
+
+The villagers should celebrate her as their hero.
+
+The villagers, not Aidil, must throw Ain into the air exactly three times.
+
+Aidil must not throw Ain.
+
+Ain must not throw Aidil.
+
+The celebration should happen only after the monster has been defeated, Aidil has returned to normal, and the village has been restored.
+
+Scene Setup
+
+The villagers gather in the central village square.
+
+The square is decorated with flowers, colorful flags, and birthday decorations.
+
+The villagers surround Ain and cheer.
+
+Some clap.
+
+Some wave.
+
+A child gives Ain a flower.
+
+A village elder steps forward and thanks her for protecting everyone.
+
+The mood is joyful and relieved.
+
+Aidil stands nearby, watching the celebration.
+
+He is happy that Ain saved everyone, but he is also embarrassed about what happened.
+
+Dialogue
+
+A villager steps forward.
+
+Villager:
+"Ain! You saved our village!"
+
+Another villager joins in.
+
+Villager:
+"And you saved Aidil!"
+
+The villagers begin cheering.
+
+Villagers:
+"AIN! AIN! AIN!"
+
+Ain looks around, surprised by all the attention.
+
+Ain:
+"Guys, it wasn't that big of a deal..."
+
+The villagers look at the destroyed-and-restored village around them, then back at Ain.
+
+Villager:
+"You fought a giant monster!"
+
+Another Villager:
+"ON YOUR BIRTHDAY!"
+
+Ain pauses.
+
+Ain:
+"Okay, when you put it like that..."
+
+The villagers cheer even louder.
+
+One excited villager shouts:
+
+Villager:
+"THREE CHEERS FOR AIN!"
+
+The villagers gather around Ain.
+
+Two or more villagers carefully lift her up.
+
+Ain immediately realizes what they are planning.
+
+Ain:
+"Wait. WAIT—"
+
+The Three Tosses
+
+Animate the villagers tossing Ain safely into the air and catching her.
+
+The toss must happen exactly three times.
+
+Each toss should be visually distinct.
+
+First Toss
+
+The villagers toss Ain upward.
+
+Ain rises above the crowd.
+
+Her arms and legs move naturally during the brief airborne animation.
+
+She looks surprised.
+
+Ain:
+"WHOA!"
+
+The villagers catch her safely.
+
+Second Toss
+
+The villagers prepare and toss her again.
+
+Ain rises into the air.
+
+She is beginning to enjoy herself but still feels embarrassed.
+
+Ain:
+"OKAY, THAT'S ONE TOO MANY!"
+
+The villagers catch her safely.
+
+Third Toss
+
+The villagers cheer and perform the third and final toss.
+
+Ain rises into the air one last time.
+
+The camera briefly widens to show the crowd, flower decorations, and restored village.
+
+Ain:
+"YOU BETTER NOT MAKE THIS A TRADITION!"
+
+The villagers catch her safely.
+
+This is the third and final toss. Do not add any additional tosses.
+
+The villagers gently set Ain back on the ground.
+
+She adjusts her clothes and tries to look dignified.
+
+Aidil is laughing quietly nearby.
+
+Ain notices him.
+
+Ain:
+"Not a word."
+
+Aidil:
+"I didn't say anything."
+
+Ain:
+"You're thinking it."
+
+Aidil:
+"...Maybe."
+
+Ain shakes her head, smiling.
+
+The villagers continue celebrating.
+
+The scene should feel like a fun, memorable reward for the player's victory.
+
+---
+
+15. AIDIL MAKES IT UP TO AIN
+
+After the celebration, the crowd gradually disperses.
+
+Aidil approaches Ain.
+
+He is carrying a beautifully decorated birthday cake.
+
+The cake should have candles, frosting, and colorful decorations.
+
+This scene should show Aidil trying to make Ain's birthday special after the disaster he caused.
+
+Scene Setup
+
+Aidil stands in front of Ain, holding the cake carefully.
+
+The background is the restored village square.
+
+The villagers have placed small birthday decorations around the area.
+
+The lighting is warm and soft.
+
+EXACT DIALOGUE
+
+Aidil:
+"Finally. Cake."
+
+Ain looks at him.
+
+Ain:
+"You helped save the village and that's what you're excited about?"
+
+Aidil:
+"Have you tried the cake?"
+
+Ain looks at the cake.
+
+She pauses.
+
+Ain:
+"...Fair point."
+
+Both characters smile.
+
+Aidil places the cake on a small table.
+
+Ain and Aidil sit together.
+
+The villagers leave them some space to enjoy the moment.
+
+The scene should feel intimate and peaceful after the chaos.
+
+---
+
+16. THE FIRST BITE AND BIRTHDAY TUNE
+
+This moment must follow the cake scene exactly.
+
+Aidil picks up a slice of cake.
+
+Ain picks up her own slice.
+
+They exchange a look.
+
+Aidil takes his first bite.
+
+At the exact moment Aidil's first bite animation completes, begin playing a cheerful birthday tune.
+
+Do not start the birthday tune before the bite.
+
+Do not delay the music until after several bites.
+
+The first bite is the trigger.
+
+Use a short, cheerful, original birthday-style melody.
+
+Do not use copyrighted music recordings.
+
+The music should feel playful and heartwarming.
+
+As the music starts:
+
+- Aidil smiles.
+- Ain laughs softly.
+- The candles flicker.
+- Small sparkles appear around the cake.
+- The villagers in the background resume their activities.
+- The sky begins transitioning toward sunset.
+
+Allow the music to continue naturally as the scene transitions.
+
+Do not interrupt the birthday tune with unrelated dialogue or another battle.
+
+---
+
+17. THE SUNSET ENDING
+
+After the cake scene, transition to a peaceful sunset.
+
+The music should gradually become softer and more emotional while retaining a warm, celebratory feeling.
+
+Visuals
+
+Show Ain and Aidil sitting together on a grassy hill overlooking the restored village.
+
+The castle towers are visible in the distance.
+
+The rooftops glow in the sunset light.
+
+The sky contains shades of orange, pink, purple, and deep blue.
+
+Small flowers sway in the breeze.
+
+Fireflies or subtle floating particles appear as the scene darkens.
+
+The village is peaceful again.
+
+Ain and Aidil sit beside each other.
+
+They look toward the horizon.
+
+Their friendship is the emotional focus.
+
+Do not introduce another conflict.
+
+Do not have Aidil transform again.
+
+Do not add another boss fight.
+
+Do not add extra dialogue that interrupts the final letter.
+
+Final Letter
+
+Fade the scene slightly darker.
+
+Display a simple letter-style text overlay in the center of the screen.
+
+Use a readable pixel-art font.
+
+The final letter must contain exactly these two lines, with no additional words:
+
+I wish the best for ur future
+— your friend, Aidil.
+
+Preserve the wording, spelling, punctuation, capitalization, and line break exactly as written.
+
+Do not change "ur" to "your."
+
+Do not add Ain's name, a greeting, a date, or any other sentence.
+
+Keep the letter visible long enough for the player to read it.
+
+The sunset should remain visible behind the letter.
+
+The birthday music fades gently.
+
+After a short pause, display:
+
+THE END
+
+Then show two buttons:
+
+- REPLAY
+- MAIN MENU
+
+Both buttons must work.
+
+---
+
+18. CHARACTER DESIGN AND ANIMATION
+
+Create distinct, consistent pixel-art sprites for every important character.
+
+Ain
+
+Ain is the main playable character.
+
+Design her as a recognizable young fantasy adventurer.
+
+Give her:
+
+- A clear and expressive face.
+- Distinctive hair.
+- A consistent outfit.
+- A readable sprite silhouette.
+- A small idle animation.
+- Four-direction walking animations.
+- An attack animation.
+- A dodge animation.
+- A damage reaction.
+- A victory animation.
+- A surprised animation.
+- A falling animation for the opening cinematic.
+- A sitting animation for the cake and sunset scenes.
+- An airborne animation for the three celebration tosses.
+
+Keep her appearance consistent throughout the game.
+
+Aidil
+
+Aidil is Ain's friend.
+
+Give him:
+
+- A recognizable outfit.
+- A clear silhouette.
+- Idle and walking animations.
+- A wave animation.
+- A gift-giving animation.
+- A surprised animation.
+- A transformation animation.
+- A human-form damage or exhaustion animation.
+- A cake-holding animation.
+- A sitting animation.
+
+His human sprite must be visibly distinct from Ain's sprite.
+
+Shadow Titan
+
+Create a large monster sprite with:
+
+- A massive body.
+- Glowing purple eyes.
+- Dark purple armor-like features.
+- Large hands.
+- Heavy feet.
+- A dramatic silhouette.
+
+Create animations for:
+
+- Idle breathing.
+- Roaring.
+- Walking.
+- Stomping.
+- Sweeping attacks.
+- Charging.
+- Energy attacks.
+- Grabbing Ain.
+- Reacting to the hand bite.
+- Staggering.
+- Collapsing.
+- Transforming back into Aidil.
+
+Make the Titan large enough to feel intimidating without obscuring important attack indicators.
+
+Villagers
+
+Create several visually distinct villager sprites.
+
+They should have:
+
+- Different clothing colors.
+- Different hair styles.
+- Different accessories.
+- Idle animations.
+- Walking animations.
+- Running animations.
+- Surprised reactions.
+- Celebration animations.
+
+During the rampage, villagers must flee toward safe areas.
+
+During the celebration, villagers should gather around Ain.
+
+Do not use one static villager sprite for every NPC if varied sprites can be created.
+
+---
+
+19. WORLD MAP AND COLLISION
+
+Create a complete, connected map.
+
+The world should include:
+
+- A flower garden starting area.
+- A village entrance.
+- Residential streets.
+- A market.
+- A central square.
+- A castle courtyard.
+- A small grassy hill for the ending.
+
+Map Requirements
+
+Use a tile-based map where practical.
+
+The player should be able to navigate the world naturally.
+
+Implement collision for:
+
+- Trees.
+- Walls.
+- Houses.
+- Fences.
+- Market stalls.
+- Large environmental objects.
+- The castle exterior.
+- Other solid scenery.
+
+Prevent Ain from walking through walls, trees, or buildings.
+
+Keep the map boundaries consistent.
+
+Make sure the player cannot leave the playable world.
+
+During cinematic sequences, lock movement when necessary and restore control afterward.
+
+Never leave the player permanently stuck behind an object.
+
+---
+
+20. GAMEPLAY AND INTERACTION SYSTEMS
+
+Implement a reliable interaction system.
+
+When Ain approaches an NPC or an interactive object, show a small prompt such as:
+
+E: TALK
+
+For mobile devices, show an interact button.
+
+When the player interacts:
+
+- Pause normal movement.
+- Open the dialogue box.
+- Display the speaker's name.
+- Display the dialogue.
+- Allow the player to advance the text.
+- Resume movement when the conversation ends.
+
+Do not require the player to repeatedly interact with an NPC to advance a single scripted conversation.
+
+For important story scenes, use automatic dialogue triggers.
+
+Dialogue UI
+
+Use a classic RPG dialogue box at the bottom of the screen.
+
+The dialogue box should have:
+
+- A dark translucent background.
+- A decorative pixel border.
+- The speaker's name.
+- Readable text.
+- A small indicator when more dialogue is available.
+
+Use a consistent font and text speed.
+
+Allow the player to advance dialogue with a button or key.
+
+During major cinematics, do not let the player accidentally skip the entire story with one movement input.
+
+Provide a sensible dialogue-advance mechanism.
+
+---
+
+21. SOUND AND MUSIC
+
+Create distinct audio for each stage.
+
+Opening
+
+Use light, whimsical fantasy music.
+
+Add wind sounds during the fall.
+
+Use soft landing sounds and small comedic sound effects.
+
+Exploration
+
+Use peaceful village music.
+
+Include subtle ambient sounds such as birds, footsteps, and fountains.
+
+Gift Scene
+
+Use gentle, playful music.
+
+Transformation
+
+Use a rising magical rumble.
+
+Add dark magical sound effects and a powerful roar.
+
+Village Rampage
+
+Use tense music.
+
+Add heavy footsteps, crashing wood, falling barrels, and villagers shouting.
+
+Keep sound effects balanced so the dialogue remains understandable.
+
+Boss Battle
+
+Use energetic action music.
+
+Add clear audio cues for the Titan's attacks.
+
+Give successful player attacks satisfying impact sounds.
+
+Restoration
+
+Transition to warm, uplifting music.
+
+Use gentle magical sounds as the village repairs itself.
+
+Celebration
+
+Use joyful, upbeat music.
+
+Add applause and cheerful crowd reactions.
+
+Cake
+
+Play a cheerful birthday tune triggered by Aidil's first bite.
+
+Sunset
+
+Let the music become soft and emotional.
+
+Fade the audio naturally at the ending.
+
+Add a master sound toggle and sensible volume levels.
+
+If actual audio assets cannot be created, use available sound-generation tools or simple synthesized sounds. Do not leave critical game events without appropriate feedback merely because custom audio files are unavailable.
+
+---
+
+22. USER INTERFACE
+
+Create a clean, consistent pixel-art interface.
+
+Exploration UI
+
+Display:
+
+- Ain's character sprite or small portrait.
+- A simple health indicator when combat is relevant.
+- An interaction prompt when near an object or NPC.
+- A pause button.
+
+Keep the interface unobtrusive during exploration.
+
+Boss UI
+
+Display:
+
+- Boss name: SHADOW TITAN.
+- Boss health bar.
+- Ain's health.
+- Attack feedback.
+- Clear warning indicators for dangerous attacks.
+
+Do not clutter the screen with unnecessary menus.
+
+Pause Menu
+
+Include:
+
+- RESUME
+- CONTROLS
+- SOUND: ON/OFF
+- RESTART FROM CHECKPOINT
+- MAIN MENU
+
+Pause must stop gameplay logic and combat animations where appropriate.
+
+Do not allow the boss to keep attacking while the game is paused.
+
+Add a confirmation prompt before restarting or returning to the main menu.
+
+---
+
+23. MOBILE AND DESKTOP SUPPORT
+
+The game must be playable on desktop and mobile.
+
+Desktop
+
+Support:
+
+- WASD or Arrow Keys for movement.
+- Space or J for attack.
+- Shift for dodge.
+- E or Enter for interaction.
+- Escape for pause.
+- Mouse input for menu buttons.
+
+Mobile
+
+Provide:
+
+- A virtual joystick or directional buttons.
+- An attack button.
+- A dodge button.
+- An interaction button.
+- A pause button.
+
+Ensure that the controls do not obscure the character or important parts of the battle.
+
+Scale the UI for different screen sizes.
+
+Support portrait or landscape only if the entire game can remain comfortable to play in that orientation. Prefer landscape for the action gameplay.
+
+Prevent accidental browser scrolling while the player is using touch controls.
+
+---
+
+24. GAME STATE AND STORY PROGRESSION
+
+Implement a reliable game-state system.
+
+Use clearly defined states such as:
+
+1. TITLE_SCREEN
+2. OPENING_CINEMATIC
+3. EXPLORATION
+4. GIFT_SCENE
+5. TRANSFORMATION_CINEMATIC
+6. VILLAGE_RAMPAGE
+7. BOSS_PHASE_1
+8. BOSS_PHASE_2
+9. BOSS_PHASE_3
+10. HAND_BITE_CINEMATIC
+11. FINAL_FINISHER
+12. AIDIL_RESTORED
+13. VILLAGE_RESTORATION
+14. VILLAGE_CELEBRATION
+15. CAKE_SCENE
+16. SUNSET_ENDING
+17. GAME_COMPLETE
+
+Use a proper state machine or equivalent architecture.
+
+Important Progression Rules
+
+- The opening cinematic must happen before exploration.
+- The gift scene must happen before the transformation.
+- Aidil must transform before the village rampage.
+- The rampage must happen before the boss fight.
+- The boss fight must happen before the final finisher.
+- The final finisher must restore Aidil.
+- Aidil must be human again before the villagers celebrate.
+- The village must be restored before the celebration begins.
+- The villagers must toss Ain into the air exactly three times during the celebration.
+- Aidil must not throw Ain into the air.
+- Ain must not throw Aidil into the air.
+- The cake scene must happen after the celebration.
+- The birthday tune must begin at the exact moment Aidil takes his first bite.
+- The sunset ending must follow the cake scene.
+- The final letter must display the exact two lines provided.
+- The game must reach a proper ending state.
+
+Do not allow unrelated story scenes to trigger simultaneously.
+
+Do not allow the boss to reappear after it has been defeated.
+
+Do not allow the restoration sequence to trigger more than once.
+
+Do not allow the three celebration tosses to repeat because of animation loops or dialogue advancement.
+
+---
+
+25. SAVING AND CHECKPOINTS
+
+Where practical, implement basic progress saving.
+
+Save:
+
+- Sound preferences.
+- Story progression.
+- The most recent checkpoint.
+
+At minimum, the player should be able to restart from a sensible checkpoint after losing a boss battle.
+
+Do not save a temporary boss state in a way that makes the game impossible to complete.
+
+If full save functionality is not supported, implement a reliable restart system.
+
+---
+
+26. ART, PERFORMANCE, AND TECHNICAL QUALITY
+
+Prioritize a stable, complete game.
+
+Requirements:
+
+- Consistent frame rate.
+- Responsive controls.
+- Correct collision detection.
+- No broken menus.
+- No missing story transitions.
+- No dialogue that becomes permanently stuck.
+- No sprites disappearing unexpectedly.
+- No softlocks.
+- No attacks that remain active forever.
+- No boss health bar that fails to update.
+- No repeated cinematic triggers.
+- No duplicate celebration tosses.
+- No audio that continues playing incorrectly after leaving a scene.
+
+Use reusable systems for:
+
+- Dialogue.
+- Character movement.
+- Collision.
+- Combat.
+- Boss attacks.
+- Cinematic triggers.
+- Scene transitions.
+- Sound.
+- UI.
+
+Avoid creating an enormous, unstructured script if a modular design is practical.
+
+Use placeholder art only when necessary during development, and replace it with coherent pixel-art assets wherever possible.
+
+The final result should look and feel like a complete small indie RPG.
+
+---
+
+27. TESTING CHECKLIST
+
+Before considering the game complete, test the entire story from beginning to end.
+
+Opening
+
+- The title screen loads.
+- Start Adventure works.
+- The angels' dialogue appears in the correct order.
+- Ain lands in the flower garden.
+- The angels leave correctly.
+- Exploration begins.
+
+Exploration
+
+- Ain moves in all four directions.
+- Collisions work.
+- NPCs can be interacted with.
+- The gift scene triggers correctly.
+
+Transformation and Rampage
+
+- Aidil transforms into the Shadow Titan.
+- The transformation animation plays correctly.
+- Villagers run away.
+- The Titan chases villagers through the village.
+- Environmental destruction works.
+- Villagers reach safety.
+- The boss fight begins.
+
+Boss Fight
+
+- All three phases work.
+- The boss health bar updates correctly.
+- Attacks have readable warning indicators.
+- Ain can dodge attacks.
+- Ain can damage the Titan.
+- The hand-bite cinematic triggers correctly.
+- The player can continue the fight afterward.
+- Defeat and retry systems work.
+
+Ending the Battle
+
+- The final finisher triggers at the correct time.
+- Aidil returns to normal.
+- The boss disappears.
+- The village restoration plays.
+- The villagers celebrate Ain.
+
+Three Tosses
+
+- The villagers gather around Ain.
+- The first toss plays.
+- The second toss plays.
+- The third toss plays.
+- Ain is caught safely after every toss.
+- No fourth toss occurs.
+- Aidil does not throw Ain.
+- Ain does not throw Aidil.
+- The cake scene begins afterward.
+
+Cake and Ending
+
+- Aidil brings out the cake.
+- The cake dialogue plays correctly.
+- Aidil's first-bite animation triggers the birthday tune.
+- The birthday tune does not begin prematurely.
+- The sunset transition works.
+- The final letter displays exactly:
+
+I wish the best for ur future
+— your friend, Aidil.
+
+- No extra text appears in the letter.
+- THE END appears afterward.
+- Replay and Main Menu work.
+
+---
+
+28. FINAL DEVELOPMENT INSTRUCTIONS
+
+Build the complete game, not just the opening scene or a prototype.
+
+Prioritize these five qualities:
+
+1. COHERENT STORYTELLING
+
+Every event must make sense. Aidil's transformation causes the chaos, Ain defeats the monster and saves her friend, and the villagers celebrate Ain for her bravery.
+
+2. PLAYABLE GAMEPLAY
+
+Exploration, combat, NPC interaction, menus, controls, and scene transitions must function correctly.
+
+3. BEAUTIFUL PIXEL ART
+
+Use the attached screenshot as the main visual reference for the top-down RPG world. Create detailed grass, flowers, trees, cobblestone paths, stone structures, and expressive sprites.
+
+4. EMOTIONAL AND FUNNY MOMENTS
+
+Balance the angels' opening jokes, the village rampage, the hand-biting scene, the heartfelt rescue, the three-toss celebration, and the peaceful birthday ending.
+
+5. A COMPLETE ENDING
+
+The game must progress all the way from Ain's fall from the sky to the final sunset letter.
+
+Do not end development after generating a map or a title screen.
+
+Do not omit the village rampage.
+
+Do not omit the playable boss fight.
+
+Do not omit the village restoration.
+
+Do not omit the villagers throwing Ain into the air exactly three times.
+
+Do not omit the birthday cake scene or the first-bite music trigger.
+
+Do not change the final letter.
+
+If a requested feature is technically difficult, implement the closest functional version rather than silently removing it.
+
+FINAL GOAL: Create a complete, charming, funny, cinematic, and playable pixel-art RPG that tells Ain and Aidil's birthday adventure from beginning to end.

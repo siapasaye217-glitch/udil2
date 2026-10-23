@@ -1,0 +1,76 @@
+@import "tailwindcss";
+
+@layer base {
+  * {
+    box-sizing: border-box;
+    user-select: none;
+    -webkit-user-select: none;
+    -webkit-touch-callout: none;
+    -webkit-tap-highlight-color: transparent;
+  }
+
+  body {
+    margin: 0;
+    padding: 0;
+    background-color: #0d0f17;
+    color: #e2e8f0;
+    font-family: 'Press Start 2P', monospace, sans-serif;
+    overflow: hidden;
+  }
+
+  button, [role=button] {
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    user-select: none;
+    touch-action: none;
+  }
+
+  canvas {
+    image-rendering: -moz-crisp-edges;
+    image-rendering: -webkit-crisp-edges;
+    image-rendering: pixelated;
+    image-rendering: crisp-edges;
+  }
+}
+
+.pixel-font {
+  font-family: 'Press Start 2P', monospace, sans-serif;
+}
+
+.dialogue-font {
+  font-family: 'VT323', monospace, sans-serif;
+}
+
+/* Custom retro styling for HUD and modals */
+.retro-border {
+  border: 4px solid #4a3425;
+  box-shadow: 
+    inset 0 0 0 2px #c99e64,
+    0 4px 12px rgba(0, 0, 0, 0.7);
+}
+
+.retro-border-gold {
+  border: 4px solid #b37e29;
+  box-shadow: 
+    inset 0 0 0 2px #fedc77,
+    0 6px 16px rgba(0, 0, 0, 0.8);
+}
+
+.retro-button {
+  background: #3b281c;
+  border: 3px solid #8e623c;
+  box-shadow: inset 0 2px 0 #c99e64, inset 0 -2px 0 #1f140e, 0 3px 6px rgba(0, 0, 0, 0.5);
+  transition: all 0.1s ease;
+}
+
+.retro-button:hover:not(:disabled) {
+  background: #4d3525;
+  border-color: #e1b474;
+  transform: translateY(-1px);
+}
+
+.retro-button:active:not(:disabled) {
+  background: #2b1c13;
+  transform: translateY(2px);
+  box-shadow: inset 0 2px 0 #1f140e, 0 1px 2px rgba(0, 0, 0, 0.5);
+}

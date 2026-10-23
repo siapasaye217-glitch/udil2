@@ -1,0 +1,6 @@
+{
+  "name": "Ain's Birthday Adventure",
+  "description": "A charming and comedic 2D pixel-art fantasy RPG celebrating Ain's birthday, featuring top-down village exploration, a dramatic Shadow Titan transformation and rampage, multi-phase boss combat, and a heartwarming sunset celebration.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
